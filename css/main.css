@@ -1,0 +1,38 @@
+body {
+  background-image: url("../images/pageBG.png");
+  background-size: 100% auto;
+  color: #39474e; }
+  body .appWrapper {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0 auto;
+    width: 65%;
+    border: 4px solid gray;
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 1% 5% 5% 5%;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5); }
+    body .appWrapper h3 {
+      text-align: center;
+      font-family: 'Permanent Marker', cursive; }
+    body .appWrapper .audioWrapper audio {
+      margin-left: 10%;
+      width: 80%;
+      margin-top: 5%;
+      margin-bottom: 5%; }
+    body .appWrapper .formWrapper form input {
+      width: 65%;
+      margin-left: 13.5%;
+      border: 1px solid black;
+      outline: none;
+      height: 27px; }
+    body .appWrapper .formWrapper form button {
+      background-color: white;
+      border: 1px solid black;
+      outline: none; }
+    body .appWrapper .displayWrapper {
+      border-top: 2px solid gray;
+      margin-top: 5%; }
+      body .appWrapper .displayWrapper img {
+        margin-top: 10%;
+        margin-right: 5%;
+        border: 2px solid black; }
